@@ -13,6 +13,7 @@ function App() {
   return (
     <div className='App'>
     <Provider store={Store}>
+      <h2>Add Customer Project</h2>
       <AddCustomer/>
       <ViewCustomer/>
      </Provider>
